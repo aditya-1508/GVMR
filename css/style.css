@@ -1,0 +1,491 @@
+        #intro {
+            background-image: url(../img/Children-jump-run-grass-holiday-balloons-1920x1080.jpg);
+            background-position: center;
+            background-size: contain;
+            padding-top: 0rem;
+        }
+        
+        .container {
+            margin: 0rem;
+            padding: 0rem;
+        }
+        
+        .intro-section {
+            padding-top: 5rem;
+            background-color: #caffbf;
+        }
+        
+        .intro-section-p {
+            padding: 6rem;
+        }
+        
+        h1 {
+            margin-top: 2rem;
+            color: #fdffb6;
+            text-align: center;
+        }
+        
+        .top-right-img {
+            width: 26rem;
+            padding: 2rem;
+            margin-left: 36rem;
+            border-radius: 3rem;
+        }
+        
+        .top-img {
+            padding: 1rem;
+            height: 15rem;
+            width: 18rem;
+            box-shadow: 0px 10px 40px rgba(59, 51, 51, 0.5);
+            border-radius: 20px;
+        }
+        
+        .campus-p {
+            margin: 2rem;
+            font-size: 1.2rem;
+            padding: 2rem;
+            box-shadow: 0px 10px 40px rgba(59, 51, 51, 0.5);
+            border-radius: 20px;
+        }
+        
+        .points {
+            padding: 2rem 0.5rem;
+            background-color: white;
+            box-shadow: 0px 10px 40px rgba(208, 246, 255, 0.5);
+            border-radius: 20px;
+        }
+        
+        p {
+            margin: 0rem;
+            padding: 1rem 3rem;
+        }
+        
+        #background-video {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        
+        .why {
+            text-align: center;
+            margin: 0rem;
+            padding: 5rem;
+            background-color: #a0c4ff;
+        }
+        
+        .campus {
+            background-color: #a0c4ff;
+        }
+        
+        .highlighted-text {
+            font-size: 3rem;
+            font-weight: bold;
+            color: transparent;
+            background: linear-gradient(90deg, #ffadad, #bdb2ff, #caffbf);
+            -webkit-background-clip: text;
+            background-clip: text;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            animation: highlight-animation 3s infinite alternate;
+        }
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .teacher-image {
+            margin-top: 20rem;
+            margin-left: 5rem;
+            width: 30rem;
+            border-radius: 3rem;
+        }
+        
+        header {
+            background: linear-gradient(to right, #f0f8ff, #e6e6fa, #dcdcdc);
+            background-size: 200% 200%;
+            animation: rainbow-gradient 10s ease infinite;
+            color: #000;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        @keyframes rainbow-gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1rem;
+            margin-top: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .map-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        
+        .info-item {
+            flex: 1;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            margin-top: 2rem;
+            color: #fdffb6;
+            text-align: center;
+        }
+        
+        .campus-p {
+            margin: 2rem;
+            font-size: 1.2rem;
+            padding: 2rem;
+            box-shadow: 0px 10px 40px rgba(59, 51, 51, 0.5);
+            border-radius: 20px;
+        }
+        
+        section {
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+        }
+        
+        .points {
+            padding: 2rem 0.5rem;
+            background-color: white;
+            box-shadow: 0px 10px 40px rgba(208, 246, 255, 0.5);
+            border-radius: 20px;
+        }
+        
+        .text-top {
+            margin: 0rem 15rem;
+            background: linear-gradient(to right, #cfe6fa, #cecede, #fffafa);
+            box-shadow: 0px 10px 40px rgb(215, 218, 249);
+            border-radius: 20px;
+        }
+        
+        p {
+            margin: 0rem;
+            padding: 1rem 3rem;
+        }
+        
+        #background-video {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        
+        .rainbow {
+            height: 30rem;
+            width: 30rem;
+        }
+        
+        .why {
+            text-align: center;
+            margin: 0rem;
+            padding: 5rem;
+            background-color: #a0c4ff;
+        }
+        
+        .campus {
+            background-color: #a0c4ff;
+        }
+        
+        .info-item h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+        
+        .info-item p {
+            line-height: 1.5;
+        }
+        
+        .hours {
+            margin-top: 40px;
+        }
+        
+        .hours h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+        
+        .hours-table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .hours-table th,
+        .hours-table td {
+            padding: 12px 20px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .hours-table th {
+            background-color: #f5f5f5;
+        }
+        
+        .hours-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        @keyframes highlight-animation {
+            from {
+                text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            }
+            to {
+                text-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+            }
+        }
+        
+        header {
+            color: #000;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1rem;
+            margin-top: 0;
+        }
+        
+        .header-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .image-logo {
+            box-shadow: 0px 10px 40px rgba(59, 51, 51, 0.5);
+            border-radius: 10px;
+            margin-left: 36rem;
+            height: 16rem;
+            width: 100%;
+        }
+        
+        .facilities {
+            padding: 3rem;
+            background-color: white;
+            box-shadow: 0px 10px 40px rgb(215, 218, 249);
+            border-radius: 20px;
+        }
+        
+        .second-logo {
+            margin-left: 10rem;
+            box-shadow: 0px 10px 40px rgba(59, 51, 51, 0.5);
+            border-radius: 10px;
+            height: 10rem;
+            width: 13rem;
+        }
+        
+        .intro-section-h4 {
+            padding-left: 7rem;
+        }
+        
+        .intro-section-h2 {
+            text-align: left;
+            margin-left: 5rem;
+            color: black;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: "Crimson Text", serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+        
+        p {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        
+        .players {
+            height: 30rem;
+            width: 30rem;
+            margin-left: 33rem;
+        }
+        /* Responsive adjustments */
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .intro-section-h2 {
+                text-align: left;
+                margin-left: 1rem;
+                color: black;
+            }
+            .rainbow {
+                margin-right: 3rem;
+                height: 20rem;
+                width: 20rem;
+                padding: 0rem;
+            }
+            .intro-section-h4 {
+                padding-left: 1rem;
+                padding-bottom: 3rem;
+            }
+            .second-logo {
+                visibility: hidden;
+                margin-left: 2rem;
+                box-shadow: 0px 10px 40px rgba(59, 51, 51, 0.5);
+                border-radius: 10px;
+                height: 3rem;
+                width: 5rem;
+            }
+            .image-logo {
+                box-shadow: 0px 10px 40px rgba(59, 51, 51, 0.5);
+                border-radius: 10px;
+                margin-left: 0rem;
+                height: 18rem;
+                width: 100%;
+                margin-top: 10rem;
+            }
+            section {
+                padding: 0rem;
+                margin: 0rem;
+            }
+            .intro-section {
+                padding-top: 1rem;
+                background-color: #caffbf;
+            }
+            .intro-section-p {
+                background-color: #cfe6fa;
+                padding: 2rem;
+            }
+            .teacher-image {
+                height: 15rem;
+                width: 15rem;
+                border-radius: 3rem;
+                margin: 0rem;
+            }
+            .players {
+                padding: 1rem;
+                margin-left: 7rem;
+                height: 10rem;
+                width: 10rem;
+            }
+            .text-top {
+                margin-top: 150px;
+                margin-left: 0px;
+                margin-right: 0px;
+                border-radius: 20px;
+            }
+            .highlighted-text {
+                font-size: 2rem;
+            }
+            .top-right-img {
+                padding: 0rem;
+                margin: 0rem;
+                height: 10rem;
+                width: 100%;
+                padding-left: 0rem;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            header p {
+                font-size: 0.875rem;
+            }
+            .container {
+                padding: 20px;
+            }
+            .info-item {
+                flex-basis: 100%;
+                margin-bottom: 20px;
+            }
+            .hours-table th,
+            .hours-table td {
+                padding: 8px;
+            }
+            .header-image {
+                height: auto;
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .highlighted-text {
+                font-size: 1.5rem;
+            }
+            .top-image {
+                padding: 3rem;
+            }
+            header h1 {
+                font-size: 1.25rem;
+            }
+            header p {
+                font-size: 0.75rem;
+            }
+            .info-item {
+                flex-basis: 100%;
+                margin-bottom: 15px;
+            }
+            .hours-table th,
+            .hours-table td {
+                padding: 6px;
+            }
+            .header-image {
+                height: auto;
+                width: 100%;
+            }
+        }
