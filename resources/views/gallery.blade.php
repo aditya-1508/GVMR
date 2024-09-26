@@ -15,14 +15,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <style>
+        body {
+            /* URL of your background image */
+            background-image: url('/img/pexels-javon-swaby-197616-3314328.jpg');
+
+            /* Make the background cover the entire area */
+            background-size: cover;
+
+            /* Keep the image fixed to the viewport */
+            background-attachment: fixed;
+
+            /* Center the background image */
+            background-position: center;
+
+            /* Ensure that the background fills the container */
+            background-repeat: no-repeat;
+
+            /* This makes sure the container takes up the full height */
+            height: 100vh;
+
+            /* Optional: You can overlay content on the image */
+            color: white;
+
+            font-family: 'Roboto', sans-serif;
+            background-color: #F7F9F2;
+            margin: 0;
+            padding-top: 80px;
+            /* To avoid content being hidden behind the navbar */
+            color: #333;
+        }
+
+        .navbar .navbar-brand img {
+            height: 40px;
+        }
+
         body,
         html {
             margin: 0;
             padding: 0;
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(135deg, #ff4e50, #f9d423, #69ff97, #2bcbba, #8e44ad, #3498db, #ff6347);
-            background-size: 400% 400%;
-            animation: gradientAnimation 20s ease infinite;
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -52,6 +83,7 @@
             max-width: 1200px;
             text-align: center;
             color: white;
+            padding-top: 100px;
             padding: 30px;
             background-color: rgba(0, 0, 0, 0.8);
             border-radius: 15px;
@@ -61,6 +93,7 @@
         /* Gallery title */
 
         .gallery-container h1 {
+            margin-top: 20px;
             margin-bottom: 30px;
             font-size: 2.5em;
             letter-spacing: 2px;
@@ -122,53 +155,20 @@
 
 <body>
     <section id="navigation">
-        <nav class="navbar navbar-expand-lg navbar-dark text-dark fixed-top bg-light" style="background-color: rgba(0, 0, 0, 0.7);">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
             <div class="container-fluid">
-                <!-- Navbar Brand (Logo) -->
-                <a class="navbar-brand" href="#">
-                    <img src="img/IMG-20240729-WA0021-removebg-preview.png" alt="Brand Logo" style="height: 5rem; width: 7rem;">
-                </a>
+                <a class="navbar-brand" href="#"><img style="height:5rem; width:7rem;" src="img/IMG-20240729-WA0021-removebg-preview.png" alt=""></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item text-dark"><a class="nav-link active" aria-current="page" href="{{url('/')}}">Home</a></li>
+                        <li class="nav-item text-dark"><a class="nav-link" href="{{url('/gallery')}}">Gallery</a></li>
+                        <li class="nav-item text-dark"><a class="nav-link active" aria-current="page" href="{{url('/contact')}}">Contact</a></li>
+                        <li class="nav-item text-dark"><a class="nav-link" href="{{url('/notice')}}">Notice</a></li>
+                        <li class="nav-item text-dark"><a class="nav-link" href="{{url('/admin')}}"><button class="btn btn-primary">Admin ?</button></a></li>
 
-                <!-- Toggler for Mobile View -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <!-- Navbar Content -->
-                <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-                        <!-- Nav Items -->
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
                     </ul>
-                </div>
-
-                <!-- Search Form -->
-                <div class="d-flex justify-content-end">
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <form class="d-flex"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline-success" type="submit">Search</button></form>
                 </div>
             </div>
         </nav>
@@ -177,6 +177,7 @@
 
     <div class="gallery-container">
         <h1>Image Gallery</h1>
+        <br><br><br><br><br><br>
         <div class="row">
             <!-- Add your images here -->
             <div class="col-md-4 col-sm-6 gallery-item">

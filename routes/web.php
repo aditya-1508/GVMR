@@ -20,16 +20,40 @@ Route::get('/', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+Route::get('/principle_note', function () {
+    return view('principle_note');
+});
 Route::get('/add-user', function () {
     return view('add-users');
 });
-// routes/web.php
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/new_notice', function () {
+    return view('new_notice');
+});
+Route::get('/admin', function () {
+    return view('admin_login');
+});
+
 
 use App\Http\Controllers\NoticeController;
 
+Route::post('/notices', [NoticeController::class, 'store']);
+
+
+use App\Http\Controllers\AuthController;
+
+
+Route::post('/login', [AuthController::class, 'login']);
 Route::get('/send-notice', function () {
     return view('send-notice');
 });
+Route::get('/notice', function () {
+    return view('notice');
+});
 
-Route::post('/send-notice', [NoticeController::class, 'sendEmails'])->name('sendEmails');
-Route::post('/store', [NoticeController::class, 'store']);
+use App\Http\Controllers\ContactController;
+
+Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
+Route::post('/contact', [ContactController::class, 'handleForm'])->name('contact.submit');

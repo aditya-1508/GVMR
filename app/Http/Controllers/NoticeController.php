@@ -2,51 +2,24 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
-use App\Mail\CustomMail;
-use Illuminate\Support\Facades\Mail;
+use App\Models\Notice;
 use Illuminate\Http\Request;
 
 class NoticeController extends Controller
 {
+    // Show the form to create a new notice
+    public function showForm()
+    {
+        return view('notices.create'); // Blade view for creating a notice
+    }
 
-
+    // Store a newly created notice in the database
     public function store(Request $request)
     {
-        User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-        ]);
+        // Create a new notice with the input data
+        Notice::create($request->all());
 
-        // Redirect or return response
-        return redirect('/send-notice')->with('success', 'User added successfully!');
-    }
-    public function sendEmails(Request $request)
-    {
-        set_time_limit(2000);
-        // Validate the request
-        $request->validate([
-            'title' => 'required|string|max:255',
-            'body' => 'required|string',
-        ]);
-
-        // Fetch all users
-        $users = User::all(['email']);
-
-        // Loop through each user and send the email
-        foreach ($users as $user) {
-            $details = [
-                'title' => $request->input('title'), // Get title from the form
-                'body' => $request->input('body'), // Get body from the form and personalize it
-            ];
-
-
-            // Send the email using the queued method
-            Mail::to($user->email)->queue(new CustomMail($details));
-        }
-
-
-        // Redirect back with a success message
-        return redirect()->back()->with('success', 'Emails sent successfully!');
+        // Redirect back with success message
+        return redirect('/notice')->with('success', 'Notice created successfully!');
     }
 }

@@ -57,13 +57,17 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item text-dark"><a class="nav-link active" aria-current="page" href="{{url('/')}}">Home</a></li>
                         <li class="nav-item text-dark"><a class="nav-link" href="{{url('/gallery')}}">Gallery</a></li>
+                        <li class="nav-item text-dark"><a class="nav-link active" aria-current="page" href="{{url('/contact')}}">Contact</a></li>
+                        <li class="nav-item text-dark"><a class="nav-link" href="{{url('/notice')}}">Notice</a></li>
+                        <li class="nav-item text-dark"><a class="nav-link" href="{{url('/admin')}}"><button class="btn btn-primary">Admin ?</button></a></li>
+
                     </ul>
                     <form class="d-flex"><input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline-success" type="submit">Search</button></form>
                 </div>
             </div>
         </nav>
     </section>
-    <section class="container-fluid" id="intro">
+    <section class="container-fluid text-justify" id="intro">
         <img class="top-right-img" src="img/IMG-20240729-WA0021.jpg" alt="" data-aos="fade-left" data-aos-duration="1500">
 
         <div data-aos="fade-up" data-aos-duration="1500">
@@ -81,33 +85,51 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid intro-section">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-right" data-aos-duration="1500">
+    <section style=" background-image: url(../img/portrait-autistic-kid-fantasy-world.jpg);
+    background-size: cover;
+
+
+    background-repeat: no-repeat;
+
+
+    background-position: center;         padding-top: 5rem;" class="container-fluid intro-section">
+        <div style="  box-shadow: 0px 10px 40px rgb(215, 218, 249); border-radius: 20px;background-color: white; margin:2rem 3rem;" class="row">
+            <div style="padding: 3rem 0rem;" class="col-lg-6 col-md-6 col-sm-6" data-aos="fade-right" data-aos-duration="1500">
                 <h2 class="intro-section-h2">By Education</h2>
                 <h4 class="intro-section-h4">I mean an <br>all-round drawing <br>of the best in child <br>and man in body ,mind and spirit- <span style="color: grey; font-style: italic;">Mahatma Gandhi</span></h4>
             </div>
-            <div class="col-md-6 col-lg-6 col-sm-6" data-aos="fade-left" data-aos-duration="1500">
-                <img class="second-logo" src="img/IMG-20240729-WA0021.jpg" alt="">
-            </div>
+
         </div>
-        <p class="intro-section-p" data-aos="fade-up" data-aos-duration="1500">Preschool plays a crucial role in a child's early development, laying the foundational skills necessary for future academic and social success. During these formative years, children experience rapid cognitive, emotional, and social growth. A
+        <br><br><br><br><br><br><br><br><br>
+        <p style="background-color: white; margin:0rem 3rem;  box-shadow: 0px 10px 40px rgb(215, 218, 249); border-radius: 20px; " class="intro-section-p text-justify" data-aos="fade-up" data-aos-duration="1500">Preschool plays a crucial role in a child's early development, laying the foundational skills necessary for future academic and social success. During these formative years, children experience rapid cognitive, emotional, and social growth. A
             high-quality preschool program provides a structured environment where young learners can engage in activities that enhance their language abilities, critical thinking, and problem-solving skills. Additionally, preschool fosters socialization
             by encouraging children to interact with peers, navigate group dynamics, and develop essential social skills such as sharing and empathy. This early exposure to structured learning and social environments helps ease the transition to primary
             school, making children more adaptable and confident. Ultimately, investing in preschool education sets the stage for lifelong learning and personal development, equipping children with the tools they need to thrive in an increasingly complex
             world. </p>
     </section>
-    <h3 style="text-align: center;">Our Gvmr ❤️</h3>
-    <section class="video-section">
+    <section style=" background-image: url(../img/top-view-stationery-accessories-with-copy-space.jpg);
+    background-size: cover;
+
+
+    background-repeat: no-repeat;
+
+
+    background-position: center;         padding-top: 5rem;" class="video-section">
 
         <iframe src="https://player.vimeo.com/video/1003987298?autoplay=1&muted=1&badge=0&autopause=0&player_id=0&app_id=58479" width="506" height="900" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="GVMR School (1)"></iframe>
     </section>
 
-    <section class="container-fluid why">
+    <section style=" background-image: url(../img/different-colored-geometrical-shapes-blue-background.jpg);
+           background-size: cover;
+
+
+    background-repeat: no-repeat;
+
+
+    background-position: center;  padding-top: 10rem;" class="container-fluid why">
         <div class="row">
             <div class="col-md-6 col-lg-6 col-sm-12" data-aos="fade-right" data-aos-duration="1500">
                 <h2 style=" color: beige;">Why GVMR <i class="fa-solid fa-school fa-flip"></i>?</h2><br><br><br><br><br><br>
-                <img class="rainbow" src="img/2deacf2918d8d5acf75d1ee36532e2c5.png" alt="" data-aos="zoom-in" data-aos-duration="1500">
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12" data-aos="fade-left" data-aos-duration="1500">
                 <div style=" background: linear-gradient(to right, #cfe6fa, #cecede, #fb7e7e); margin-left:4rem; box-shadow: 0px 10px 40px rgb(215, 218, 249); border-radius: 20px;" class="points">
@@ -121,36 +143,49 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid campus">
+    <section style="     background-image: url(../img/32442923_7895078.jpg);
+            background-position: center;
+          
+    background-size: cover;
+
+
+    background-repeat: no-repeat;
+
+
+    background-position: center;
+
+    /* Allow the background to adjust according to the screen size */
+    background-attachment: fixed;
+            padding-top: 5rem;" class="container-fluid campus">
         <h2 style="text-align: center; padding: 3rem;" data-aos="fade-up" data-aos-duration="1500">Our Campus</h2>
-        <p class="campus-p" style="  box-shadow: 0px 10px 40px rgb(215, 218, 249); border-radius: 20px;" data-aos="fade-up" data-aos-duration="1500">GVMR campus is designed to allow learning to take place in a stimulating and safe environment... </p>
+        <p class="campus-p" style="background-color:white;  box-shadow: 0px 10px 40px rgb(215, 218, 249); border-radius: 20px;" data-aos="fade-up" data-aos-duration="1500">GVMR campus is designed to allow learning to take place in a stimulating and safe environment... </p>
         <div class="row">
             <div class="col-md-6 col-lg-6 col-sm-12" data-aos="fade-left" data-aos-duration="1500">
-                <img class="teacher-image" src="img/transparent-little-girl-girl-happily-plays-with-building-blocks-tower65e5a477aed781.6325153917095486637162.png" alt="">
+                <img class="rainbow" src="img/2deacf2918d8d5acf75d1ee36532e2c5.png" alt="" data-aos="zoom-in" data-aos-duration="1500">
             </div>
             <div class="col-sm-12 col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1500">
-                <h4 style=" padding: 1rem;">Social Skills </h4>
+                <h4 style=" background-color:white; padding: 1rem;">Social Skills </h4>
                 <ul style=" background: linear-gradient(to right, #cfe6fa, #cecede, #fffafa);  box-shadow: 0px 10px 40px rgb(215, 218, 249); border-radius: 20px; padding: 2rem;">
                     <li>Ask for help.</li>
                     <li>Develop a healthy relationship.</li>
                     <li>Protect themselves.</li>
                     <li>Interact with society.</li>
                 </ul>
-                <h4 style=" padding: 1rem;">Self-Help Skills </h4>
+                <h4 style="background-color:white; padding: 1rem;">Self-Help Skills </h4>
                 <ul style=" background: linear-gradient(to right, #cfe6fa, #e0b485, #fffafa);  box-shadow: 0px 10px 40px rgb(215, 218, 249); border-radius: 20px; padding: 2rem;">
                     <li>Self-feeding.</li>
                     <li>Independent dressing and grooming.</li>
                     <li>Hygiene and toileting.</li>
                     <li>Interact with society.</li>
                 </ul>
-                <h4 style=" padding: 1rem;">Cognitive Skills </h4>
+                <h4 style="background-color:white; padding: 1rem;">Cognitive Skills </h4>
                 <ul style=" background: linear-gradient(to right, #cfe6fa, #87dcdc, #fffafa);   box-shadow: 0px 10px 40px rgb(215, 218, 249); border-radius: 20px; padding: 2rem;">
                     <li>Exercise the sequences of actions.</li>
                     <li>Develop a healthy relationship.</li>
                     <li>Identify colors and shapes.</li>
                     <li>Interact with society.</li>
                 </ul>
-                <h4 style="padding: 1rem;">Gross Motor Skills </h4>
+                <h4 style="background-color:white; padding: 1rem;">Gross Motor Skills </h4>
                 <ul style=" background: linear-gradient(to right, #cfe6fa, #d8b3c9, #fffafa);  box-shadow: 0px 10px 40px rgb(215, 218, 249); border-radius: 20px; padding: 2rem;">
                     <li>Can jump with feet.</li>
                     <li>Can ride a tricycle.</li>
@@ -159,12 +194,19 @@
             </div>
         </div>
     </section>
-    <section style="background-color: #99fcb4e6;" class="container-fluid sports">
-        <h1 class="text-success" style=" padding: 3rem;">Facilities</h1>
-        <div class="row">
+    <section style=" background-image: url(../img/school-decoration-with-frame-concept-made-pens.jpg);
+    background-size: cover;
+
+
+    background-repeat: no-repeat;
+
+
+    background-position: center;         padding-top: 5rem;" class="container-fluid sports">
+        <h1 class="text-success" style="background-color:white;margin:3rem 5rem; padding: 3rem; box-shadow: 0px 10px 40px rgb(239, 173, 85); border-radius: 20px; border-radius: 3rem;"">Facilities</h1>
+        <div class=" row">
 
             <img class="players" src="img/bc644df543f95bd1dd424728305e559c.png" alt="">
-            <div class="facility" style="background-color: white; border-radius: 3rem; padding:5rem 0rem;" class="text-dark col-md-6 col-lg-6 col-sm-12">
+            <div class="facility text-justify" class="text-dark col-md-6 col-lg-6 col-sm-12">
                 <p>Welcome to GVMR International School, Mowa, Raipur, Chhattisgarh, India. where learning is a joyful journey. We integrate Jolly Phonics, Karate, dance, yoga, and art and craft into our curriculum to nurture holistic development. Our vibrant
                     school culture embraces competitions and celebrates all festivals, fostering cultural understanding. Students enjoy educational visits to various places like malls and museums, enriching their learning through audio-visual experiences.
                     At GVMR International School, every day is filled with exploration, creativity, and meaningful learning experiences </p>
@@ -195,7 +237,7 @@
                 <p>Inspiring Excellence, Nurturing Potential, Creating Leaders of Tomorrow.</p>
                 <p>Join GVMR International School, where education meets excellence, and every child is prepared to succeed in a dynamic world</p>
             </div>
-        </div>
+            </div>
     </section>
     <header>
         <div class="row">

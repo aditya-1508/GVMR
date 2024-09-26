@@ -1,13 +1,20 @@
         #intro {
-            background-image: url(../img/Children-jump-run-grass-holiday-balloons-1920x1080.jpg);
+            background-image: url(../img/23434752_6806599.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
             background-position: center;
-            background-size: contain;
+            height: 100%;
+            width: 100%;
             padding-top: 0rem;
         }
         
         .container {
             margin: 0rem;
             padding: 0rem;
+        }
+        
+        .text-justify {
+            text-align: justify;
         }
         
         .intro-section {
@@ -93,6 +100,12 @@
         p {
             margin: 0rem;
             padding: 1rem 3rem;
+        }
+        
+        .facility {
+            background-color: white;
+            border-radius: 3rem;
+            padding: 5rem 2rem;
         }
         
         #background-video {
@@ -453,6 +466,11 @@
                 width: 15rem;
                 border-radius: 3rem;
                 margin: 0rem;
+            }
+            .facility {
+                background-color: white;
+                border-radius: 3rem;
+                padding: 5rem 0rem;
             }
             .players {
                 padding: 1rem;
